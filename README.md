@@ -112,7 +112,7 @@ background-size:40px 40px;opacity:.3;pointer-events:none;
 <div class="dark-toggle" onclick="toggleDark()">🌙</div>
 
 <audio id="music" loop>
-<source src="user/music.mpeg" type="audio/mpeg">
+<source src="music.mpeg" type="audio/mpeg">
 </audio>
 
 <div class="screen active" id="s1">
