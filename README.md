@@ -149,10 +149,10 @@ background-size:40px 40px;opacity:.3;pointer-events:none;
 <div class="modal" id="gallery">
 <div class="modal-box"><h2>Our Memories 📸</h2>
 <div class="gallery">
-<img src="user/photo1.jpeg">
-<img src="user/photo2.jpeg">
-<img src="user/photo3.jpeg">
-<img src="user/photo4.jpeg">
+<img src="photo1.jpeg">
+<img src="photo2.jpeg">
+<img src="photo3.jpeg">
+<img src="photo4.jpeg">
 </div>
 <button class="close" onclick="closeModal('gallery')">back</button>
 </div>
@@ -161,11 +161,11 @@ background-size:40px 40px;opacity:.3;pointer-events:none;
 <div class="modal" id="timeline">
 <div class="modal-box"><h2>Our Story 💞</h2>
 <div class="timeline">
-<div class="moment"><img src="user/memory1.jpeg"><p>The day we met</p></div>
-<div class="moment"><img src="user/memory2.jpeg"><p>Our first date</p></div>
-<div class="moment"><img src="user/memory3.jpeg"><p>Favorite memory</p></div>
+<div class="moment"><img src="memory1.jpeg"><p>The day we met</p></div>
+<div class="moment"><img src="memory2.jpeg"><p>Our first date</p></div>
+<div class="moment"><img src="memory3.jpeg"><p>Favorite memory</p></div>
 <div class="moment">
-<video width="100%" controls><source src="user/memoryvideo.mp4" type="video/mp4"></video>
+<video width="100%" controls><source src="memoryvideo.mp4" type="video/mp4"></video>
 </div>
 </div>
 <button class="close" onclick="closeModal('timeline')">back</button>
@@ -176,7 +176,7 @@ background-size:40px 40px;opacity:.3;pointer-events:none;
 <div class="modal-box">
 <h2>A message for you 🎥</h2>
 <video width="100%" controls>
-<source src="user/video.mp4" type="video/mp4">
+<source src="video.mp4" type="video/mp4">
 </video>
 <button class="close" onclick="closeModal('video')">back</button>
 </div>
